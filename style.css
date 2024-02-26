@@ -264,6 +264,20 @@ body {
 #tab-content2 {
   height: 100%;
 }
+/* 
+.slider-nav label {
+  display: block;
+}
+
+.slider-nav  label  img[src=""]  {
+  display: none;
+} */
+
+.slider-nav label:has(img[src=""]){
+  display: none;
+}
+
+
 
 /* Category style */
 .category-container {
@@ -387,7 +401,7 @@ th {
   background-color: rgba(255, 255, 255, 0.378);
 }
 
-.td:empty {
+tr:has(td:first-child:not(:empty) + td:empty) td {
   display: none;
 }
 
