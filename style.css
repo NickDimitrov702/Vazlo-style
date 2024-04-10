@@ -221,7 +221,7 @@ body {
   height: 100px;
   align-items: center;
   position: absolute;
-  top: 1150px;
+  top: 1250px;
 }
 
 .slider-nav label {
@@ -330,7 +330,7 @@ body {
 .category-list {
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
+  max-width: 60%;
   height: 100%;
   align-items: center;
   justify-content: space-around;
@@ -340,7 +340,7 @@ body {
 
 .category-item-container {
   display: flex;
-  width: auto;
+  width: 100%;
   flex-direction: column-reverse;
   justify-content: space-around;
   margin: 10px;
@@ -350,10 +350,7 @@ body {
   /* border: 1px solid var(--main-color); */
 }
 
-.category-item-container a {
-  max-width: 300px;
-  max-height: 250px:
-}
+
 
 category-itme-container a img {
 width:100%;
